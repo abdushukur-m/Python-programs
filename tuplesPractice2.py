@@ -1,0 +1,6 @@
+num = list(range(120, 1200, 2))
+#print("Even Numbers from 120 to 1200 : \n",num)
+print("The largest even number in the range : ", max(num))
+print("The smallest even number in the range : ", min(num))
+print("Sum of the list elements : ", sum(num))
+print("Difference between min and max : ", max(num)-min(num))
