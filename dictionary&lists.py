@@ -7,9 +7,9 @@ mahsulotlar = {
 
 bozorlik = ['anor', 'uzum', 'non', 'baliq']
 
-#for m in mahsulotlar:
-#    if m in bozorlik:
-#        print(f"{m.title()} {mahsulotlar[m]} so'm")
-#    else:
-#        print(f"Kechirasiz, bizda {m} yo'q")
+for m in mahsulotlar:
+    if m in bozorlik:
+        print(f"{m.title()} {mahsulotlar[m]} so'm")
+    else:
+        print(f"Kechirasiz, bizda {m} yo'q")
 

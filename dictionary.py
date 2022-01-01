@@ -21,7 +21,8 @@ car['price']=40000
     #print(f"Qiymat: '{qiymat}'")
 
 #for key in car:
-#for key in car.keys():
-    #print(key)
-
+for key in car.keys():
+    print(key)
+for value in car.values():
+    print(value)
 
