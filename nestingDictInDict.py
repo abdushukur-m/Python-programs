@@ -2,7 +2,7 @@ hamkasblar = {
     'ali':{'familya':'valiyev', 
            'tyil':1995,
            'malumot':'oliy',
-           'tillar':['pyhton', 'c++']
+           'tillar':['pyhton', 'c++']w
            },
     'vali':{'familya':'aliyev', 
            'tyil':2001,
@@ -23,5 +23,5 @@ for ism, info in hamkasblar.items():
           "Quyidagi dasturlash tillarini biladi: ")
     for til in info['tillar']:
         print(f"{til.upper()}", end=' ')
-        
+
     
