@@ -1,7 +1,4 @@
 #1
-from os import RTLD_DEEPBIND, pipe, pread
-
-
 def foydalanuvchi_kirit(ismi, familyasi, yoshi, joyi, tnomeri=None, emanzili=None):
     foydalanuchi = {
         'ism':ismi,
@@ -31,7 +28,6 @@ foydalanuvchilar = []
 #foydalanuvchilar.append(foydalanuvchi_kirit('Alex', 'Bold', 18, 'Samarqand', '3959398', 'abdushukur771@mail.ru'))
 
 #3
-
 def katta_kichik(son1, son2, son3):
 
     if son1 >= son2:
@@ -76,9 +72,32 @@ def aylana_haqida(radius):
 print(aylana_haqida(2))
 
 #5
+tubson = []
 
-def tub_sonlar(son1, son2):
-    n = 1
-    
+def tub_sonlar(son):
+    m=0
+    for n in range(1, son+1):
+        if son % n == 0:
+            m += 1
+    if m == 2:
+        return son
 
+son1 = 3
+son2 = 13
+#son1 = int(input("1-son: "))
+#son2 = int(input("2-son: "))
+
+while son1 <= son2:
+    tubson.append(tub_sonlar(son1))
+    #print(tub_sonlar(son1))
+    son1 += 1
+print(tubson)
+
+#6
+f1=0
+f2=1
+
+fibonacci_sonlar = []
+def fibonacci(son):
+    fn=f1+f2
 
