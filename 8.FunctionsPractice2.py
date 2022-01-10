@@ -93,11 +93,4 @@ while son1 <= son2:
     son1 += 1
 print(tubson)
 
-#6
-f1=0
-f2=1
-
-fibonacci_sonlar = []
-def fibonacci(son):
-    fn=f1+f2
 
