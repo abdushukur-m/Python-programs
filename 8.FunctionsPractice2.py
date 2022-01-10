@@ -71,26 +71,5 @@ def aylana_haqida(radius):
     return aylana
 print(aylana_haqida(2))
 
-#5
-tubson = []
-
-def tub_sonlar(son):
-    m=0
-    for n in range(1, son+1):
-        if son % n == 0:
-            m += 1
-    if m == 2:
-        return son
-
-son1 = 3
-son2 = 13
-#son1 = int(input("1-son: "))
-#son2 = int(input("2-son: "))
-
-while son1 <= son2:
-    tubson.append(tub_sonlar(son1))
-    #print(tub_sonlar(son1))
-    son1 += 1
-print(tubson)
 
 
