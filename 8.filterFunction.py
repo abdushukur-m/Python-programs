@@ -10,9 +10,7 @@ def isEven(x):
 evenNums = list(filter(isEven, nums))
 print(evenNums)
 
-oddNums = list(filter(lambda x: x%2!=0, nums))
-print(oddNums)
-
+print(list(filter(lambda x: x%2!=0, r.sample(range(100), 10))))
 
 fruits = ['apple', 'banana', 'apricot', 'avocado', 'grapes', 'lemon']
 fruitA = list(filter(lambda fruit: fruit.startswith('a'), fruits))
