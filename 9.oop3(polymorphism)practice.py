@@ -1,7 +1,3 @@
-from ast import Pass
-from hashlib import new
-
-
 class Shaxs:
     """Shaxslar haqida ma'lumot"""
     def __init__(self, ism, familiya, passport, tyil):
@@ -20,7 +16,7 @@ class Shaxs:
         """Shaxsning yoshini qaytaruvchi metod"""
         return yil - self.tyil
     
-inson = Shaxs("Abdushukur", "Mukhiddinov", "AB2500837", 1998)
+inson = Shaxs("Abdushukur", "Mukhiddinov", "AA1234567", 1998)
 #print(f"{inson.get_info()}. {inson.get_age(2022)} yoshda.")
 
 
@@ -83,7 +79,7 @@ class Manzil:
         return manzil
 
 manzil = Manzil(36, 'Registon', 'Urgut', 'Samarqand')
-talaba1 = Talaba("Abdushukur", "Mukhiddinov", "AB2500837", 1998, "0000012", manzil)
+talaba1 = Talaba("Abdushukur", "Mukhiddinov", "AA1234567", 1998, "0000012", manzil)
 #print(talaba.get_info())
 #print(talaba.get_age(2022))
 
